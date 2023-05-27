@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head><title>Desenho de gráficos online | Faça gráficos e tabela de dados</title><link rel="stylesheet" type="text/css" href="main--cfa53a.css"><link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="audience" content="All"><meta name="author" content="Daniel Schmidt-Loebe"><meta name="copyright" content="Daniel Schmidt-Loebe"><meta name="description" content="Um plotador de funções matemáticas online, fácil de usar, com opção de calcular e desenhar gráficos e tabelas de dados de funções matemáticas."><meta name="keywords" content="funções, plotador gráfico, gráfico de funções matemáticas, gráficos online, tabela de dados, análise matemática, ciência, intervalo, conjunto de curvas"><meta name="language" content="pt"><meta name="page-topic" content="matemática, análise matemática, física, graficos matematicos, graficos de funções matematricas"><meta name="robots" content="index, follow"><script type="text/javascript" src="main--cfa935.js"></script><script type="text/javascript"><!--
+function doonload() {
+form_graphcolor('f'); form_graphcolor('g'); form_graphcolor('h'); form_graphcolor('i');
+}
+//--></script></head><body onLoad="doonload();"><h1>Plotador Matemático</h1><table><tr><td><div class="flowtext"><p><i>Plotter</i> é um programa que faz gráficos de funções matemáticas online, sem a necessidade de instalar qualquer programa. Com interface simples e versátil, é capaz de trabalhar simultaneamente com vários parâmetros. Conjuntos de equações, tabela de dados e correção automática de sintaxe (colchetes, parênteses, etc) estão disponíveis para as funções matemáticas. O MAFA possui ainda grande precisão e confiabilidade, o que o torna de grande utilidade para uso de alunos, universitários e de profissionais.</div></td><td style="padding:6px 5px 5px 5px; vertical-align:bottom;" rowspan="2"><div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-2850703279915078";
+google_ad_slot = "3839775043";
+google_ad_width = 160;
+google_ad_height = 600;
+
+</script>
+<script type="text/javascript"
+src="../pagead2.googlesyndication.com/pagead/f.txt">
+</script>
+</div></td></tr><tr><td><form action="#######" method="post" name="fedit" id="fedit" onsubmit="return form_submit();">
+# Na ação há um direcionamento para a calculadora.
+<table class="mainform">
+	<tr class="dummyrow">
+		<td style="width:190px;">&nbsp;</td>
+		<td style="width:190px;">&nbsp;</td>
+		<td style="width:190px;">&nbsp;</td>
+		<td style="width:190px;">&nbsp;</td>
+	</tr>
+<tr>
+	<td rowspan="5">
+		<table style="width:100%;">
+			<tr><td class='tditable'>
+
+				<table class="inputtable" style="width:100%;"><tr><td class="title">Informações Adicionais</td></tr><tr><td><table >					<tr>
+						<td style="padding-right:0px;"><img src="img/arrow.gif" width="9" height="9" alt=""></td><td><a href="pt.doc.html">Ajuda</a></td>
+					</tr>
+					<tr>
+						<td style="padding-right:0px;"><img src="img/arrow.gif" width="9" height="9" alt=""></td><td><b><a href="pt.impressum.html#Spenden">Doações</a></b></td>
+					</tr>
+					<tr>
+						<td style="padding-right:0px;"><img src="img/arrow.gif" width="9" height="9" alt=""></td><td><a href="pt.impressum.html">Aviso Legal</a></td>
+					</tr>
+				</table></td></tr></table>
+			</td></tr>
+			<tr><td class='tditable'>
+
+				<table class="inputtable" style="width:100%;"><tr><td class="title">Tabela de Dados</td></tr><tr><td><table align="center">					<tr><td style="text-align:right;"><span class="code">x</span> <sub>min</sub>:</td><td><input type="text" name="f[vtable][xmin]" value="-10" size="6" class="r"></td></tr>
+					<tr><td style="text-align:right;"><span class="code">x</span> <sub>max</sub>:</td><td><input type="text" name="f[vtable][xmax]" value="10" size="6" class="r"></td></tr>
+					<tr><td style="text-align:right;">Intervalo:</td><td><input type="text" name="f[vtable][interval]" value="1" size="6" class="r"></td></tr>
+					<tr><td style="text-align:right;">Decimais:</td><td><input type="text" name="f[vtable][decimals]" value="3" size="6" class="r"></td></tr>
+				</table></td></tr></table>
+			</td></tr>
+			<tr><td class='tditable'>
+
+				<table class="inputtable" style="width:100%;"><tr><td class="title">Tamanho do Sistema de Coordenadas</td></tr><tr><td><table align="center">					<tr>
+						<td style="text-align:center; vertical-align:middle;"><img src="img/form.plot-breite.png" width="29" height="19" alt=""></td>
+						<td style="text-align:right;">Largura:</td>
+						<td><input type="text" name="f[plot][size][x]" value="600" id="plot_size_x" size="6" class="r"></td>
+						<td>pixels</td></tr>
+						<tr><td style='text-align:center; vertical-align:middle;'><img src="img/form.plot-hohe.png" width="29" height="19" alt=""></td>
+						<td style="text-align:right;">Altura:</td>
+						<td><input type="text" name="f[plot][size][y]" value="600" id="plot_size_y" size="6" class="r"></td>
+						<td>pixels</td>
+					</tr>
+				</table></td></tr></table>
+			</td></tr>
+			<tr><td class='tditable'>
+
+				<table class="inputtable" style="width:100%;"><tr><td class="title">Exibir resultado</td></tr><tr><td><table >					<tr><td><input type='radio' name='f[output]' value="below" class="input_cb" id="output_below" checked="checked" /></td>
+					<td><label for="output_below">Embaixo</label></td></tr>
+					<tr><td><input type='radio' name='f[output]' value="right" class="input_cb" id="output_right" /></td>
+					<td><label for="output_right">À direita</label></td></tr>
+					<tr><td><input type='radio' name='f[output]' value="pwindow" class="input_cb" id="output_pwindow" /></td>
+					<td><label for="output_pwindow">Em nova janela</label></td></tr>
+				</table></td></tr></table>
+			</td></tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td colspan="3" class="tditable">
+
+		<table class="inputtable" style="width:100%;"><tr><td class="title">Funções</td></tr><tr><td><table ><tr><td><input type="checkbox" name="f[func][f][active]" value="1" class="input_cb" id="func_cbox_f" checked="checked"></td><td class="code" id="func_name_f"><label for="func_cbox_f">f(x)=</label></td><td><input type="text" name="f[func][f][term]" value="" size="54" onchange="form_emptyvalue(this,'func_cbox_f');"></td><td><table><tr><td id="func_colorfield_f" style="border:#000000 1px solid;"><img src="img/transpix.png" width="8" height="8" class="transpix" alt=""></td></tr></table></td><td><select name="f[func][f][color]" onchange="form_graphcolor('f');" id="func_f_color"><option value="h0000FF" selected>Azul</option><option value="h008000">Verde</option><option value="hFF0000">Vermelho</option><option value="h808080">Cinza</option><option value="h000000">Preto</option></select></td></tr><tr><td><input type="checkbox" name="f[func][g][active]" value="1" class="input_cb" id="func_cbox_g"></td><td class="code" id="func_name_g"><label for="func_cbox_g">g(x)=</label></td><td><input type="text" name="f[func][g][term]" value="" size="54" onchange="form_emptyvalue(this,'func_cbox_g');"></td><td><table><tr><td id="func_colorfield_g" style="border:#000000 1px solid;"><img src="img/transpix.png" width="8" height="8" class="transpix" alt=""></td></tr></table></td><td><select name="f[func][g][color]" onchange="form_graphcolor('g');" id="func_g_color"><option value="h0000FF">Azul</option><option value="h008000">Verde</option><option value="hFF0000" selected>Vermelho</option><option value="h808080">Cinza</option><option value="h000000">Preto</option></select></td></tr><tr><td><input type="checkbox" name="f[func][h][active]" value="1" class="input_cb" id="func_cbox_h"></td><td class="code" id="func_name_h"><label for="func_cbox_h">h(x)=</label></td><td><input type="text" name="f[func][h][term]" value="" size="54" onchange="form_emptyvalue(this,'func_cbox_h');"></td><td><table><tr><td id="func_colorfield_h" style="border:#000000 1px solid;"><img src="img/transpix.png" width="8" height="8" class="transpix" alt=""></td></tr></table></td><td><select name="f[func][h][color]" onchange="form_graphcolor('h');" id="func_h_color"><option value="h0000FF">Azul</option><option value="h008000" selected>Verde</option><option value="hFF0000">Vermelho</option><option value="h808080">Cinza</option><option value="h000000">Preto</option></select></td></tr><tr><td><input type="checkbox" name="f[func][i][active]" value="1" class="input_cb" id="func_cbox_i"></td><td class="code" id="func_name_i"><label for="func_cbox_i">i(x)=</label></td><td><input type="text" name="f[func][i][term]" value="" size="54" onchange="form_emptyvalue(this,'func_cbox_i');"></td><td><table><tr><td id="func_colorfield_i" style="border:#000000 1px solid;"><img src="img/transpix.png" width="8" height="8" class="transpix" alt=""></td></tr></table></td><td><select name="f[func][i][color]" onchange="form_graphcolor('i');" id="func_i_color"><option value="h0000FF">Azul</option><option value="h008000">Verde</option><option value="hFF0000">Vermelho</option><option value="h808080" selected>Cinza</option><option value="h000000">Preto</option></select></td></tr></table></td></tr></table>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" class="tditable" style="height:1px;">
+
+		<table class="inputtable" style="width:100%;"><tr><td class="title">Família de Curvas</td></tr><tr><td><table >			<tr>
+				<td rowspan="2"><input type="checkbox" name="f[funcschar][active]" value="1" class="input_cb"></td>
+				<td>Resolver a função <span class="code">f</span> como <span class="code">f(x;a)</span> com</td>
+			</tr>
+			<tr>
+				<td><span class="code">a:=</span> de <input type="text" name="f[funcschar][a][start]" value="1" size="6" class="c"> a <input type="text" name="f[funcschar][a][end]" value="5" size="6" class="c"> em intervalos de <input type="text" name="f[funcschar][a][interval]" value="1" size="6" class="c"></td>
+			</tr>
+		</table></td></tr></table>
+	</td>
+	<td rowspan="2">
+		<table style="width:100%;">
+			<tr><td class="tditable" style="width:50%;">
+
+				<table class="inputtable" style="width:100%;"><tr><td class="title">Intervalo de Valores</td></tr><tr><td><table align="center">					<tr><td>&nbsp;</td><td><input type="text" name="f[range][y][max]" value="10" size="6" class="r"></td><td>&nbsp;</td></tr>
+					<tr><td><input type="text" name="f[range][x][min]" value="-10" size="6" class="r"></td>
+					<td style="padding:0px; text-align:center; vertical-align:middle;"><img src="img/form.ko-kreuz.png" width="27" height="27" alt=""></td>
+					<td><input type="text" name="f[range][x][max]" value="10" size="6" class="r"></td></tr>
+					<tr><td>&nbsp;</td><td><input type="text" name="f[range][y][min]" value="-10" size="6" class="r"></td><td>&nbsp;</td></tr>
+				</table></td></tr></table>
+			</td></tr>
+    	<tr><td class='tditable' style="width:50%;">
+
+				<table class="inputtable" style="width:100%;"><tr><td class="title">Linhas verticais</td></tr><tr><td><table >					<tr><td><input type="checkbox" name="f[vertical_lines][active]" value="1" class="input_cb" id="vertical_lines_active"></td>
+					<td><span onclick="switchchecked('vertical_lines_active');">Valores de x:</span></td>
+					<td><input type="text" name="f[vertical_lines][values]" value="3,25;7,5" size="10" onchange="form_emptyvalue(this,'vertical_lines_active');" class=""></td></tr>
+				</table></td></tr></table>
+    	</td></tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td class='tditable'>
+
+		<table class="inputtable" style="width:100%;"><tr><td class="title">Eixos</td></tr><tr><td><table >			<tr><td><input type='checkbox' name='f[axis][x][active]' value="1" class='input_cb' id='axis_x_active' checked="checked"></td>
+			<td><span onclick="switchchecked('axis_x_active');">Abscissas (X)</span></td></tr>
+			<tr><td><input type='checkbox' name='f[axis][y][active]' value="1" class='input_cb' id='axis_y_active' checked="checked"></td>
+			<td><span onclick="switchchecked('axis_y_active');">Ordenadas (Y)</span></td></tr>
+		</table></td></tr></table>
+	</td>
+	<td class="tditable">
+
+		<table class="inputtable" style="width:100%;"><tr><td class="title">Quadriculado</td></tr><tr><td><table >			<tr><td><input type="checkbox" name="f[grid][x][active]" value="1" class="input_cb" id="grid_x_active" checked="checked"></td>
+			<td><span onclick="switchchecked('grid_x_active');">Intervalo X:</span></td>
+			<td><input type="text" name="f[grid][x][step]" value="1" size="6" onchange="form_emptyvalue(this,'grid_x_active');" class="r"></td>
+			<td style="text-align:center; vertical-align:middle;"><img src="img/form.grid-x.png" width="29" height="19" alt=""></td></tr>
+			<tr><td><input type="checkbox" name="f[grid][y][active]" value="1" class="input_cb" id="grid_y_active" checked="checked"></td>
+			<td><span onclick="switchchecked('grid_y_active');">Intervalo Y:</span></td>
+			<td><input type="text" name="f[grid][y][step]" value="1" size="6" onchange="form_emptyvalue(this,'grid_y_active');" class="r"></td>
+			<td style="text-align:center; vertical-align:middle;"><img src="img/form.grid-y.png" width="29" height="19" alt=""></td></tr>
+		</table></td></tr></table>
+	</td>
+</tr>
+<tr>
+	<td colspan="3" class="tditable">
+
+		<table class="inputtable" style="width:100%;"><tr><td class="title">Opções</td></tr><tr><td><table >			<tr><td><input type="checkbox" name="f[option][syntaxcheckverbose]" value="1" class="input_cb" id="option_syntaxcheckverbose" checked="checked"></td>
+			<td><span onclick="switchchecked('option_syntaxcheckverbose');">Mostrar também os erros corrigidos.</span></td></tr>
+		</table></td></tr></table>
+  </td>
+</tr>
+<tr>
+	<td colspan="4" class='tditable'>
+
+		<table class="inputtable" style="width:100%;"><tr><td class="title">Calcular</td></tr><tr><td><table  style="width:100%;">			<tr>
+				<td>
+					<table style="margin:-3px 0px -3px -3px;">
+						<tr><td><input type="checkbox" name="f[action][plotgraph]" value="1" class="input_cb" id="action_plotgraph" checked="checked"></td>
+						<td><span onclick="switchchecked('action_plotgraph');">Desenhar gráfico da função</span></td></tr>
+						<tr><td><input type="checkbox" name="f[action][printvtable]" value="1" class="input_cb" id="action_printvtable"></td>
+						<td><span onclick="switchchecked('action_printvtable');">Mostrar tabela de dados da função</span></td></tr>
+					</table>
+				</td>
+				<td style="text-align:right;">
+					<input type='reset' value='Limpar' class='form_submit'>&nbsp;
+					<input type='submit' name='action[perform]' value='Executar!' class='form_submit'>
+				</td>
+			</tr>
+		</table></td></tr></table>
+	</td>
+</tr>
+
+</table></form></td></tr></table><div class="flowtext footerpart">Este aplicativo foi desenvolvido como sendo parte de um trabalho, do Curso Intensivo de Matemática, no Feodor-Lynen-Gymnasium, Planegg, Alemanha. Criado em 2003-2020 por Daniel Schmidt-Loebe</div><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-2945825-1']); _gaq.push(['_trackPageview']);
+	(function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+</script></body>
+</html>
